@@ -1,3 +1,3 @@
-// start of the project
+const mainOperation = require('./src/mainOperation');
 
-console.log('lets start');
+mainOperation();
