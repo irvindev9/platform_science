@@ -1,0 +1,27 @@
+1) How do you configure your local development environment to mimic production for development?
+
+  - Use .env files and copies of the databases of production in local.
+
+2) Tell me about the frontend or backend frameworks you have experience with. Pros and cons and thoughts on frameworks in general?
+   - Laravel, Express, Django, Flask
+    - Laravel: Is a full stack framework, has a lot of features, but it is a bit heavy and has a lot of dependencies. It has many features for robustness and security, but it is not the best for performance. Is based on PHP.
+    - Express: Is a lightweight framework, it is very flexible and easy to use. It is very good for performance, but it is not the best for security. Is based on javascript.
+    - Django: Is a full stack framework, it is very easy to use and has a lot of features. It is very good for robustness and security, but it is not the best for performance. It is based on python.
+    - Flask: Like Express is a lightweight framework easy to use based on python.
+   - Vue Js, React, JQuery
+    - Vue Js: Is a progressive framework for building user interfaces. Is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. It is also very performant and is used in a lot of large scale projects. It has many similarities to React.
+    - React: Is a good framework, but it is not the best for SEO. It is a good framework for single page applications and for mobile applications focused in modularity and reusability. It is also very performant and is used in a lot of large scale projects. It has many similarities to Vue Js.
+    - JQuery: Is is a lightweight framework that is easy to use and understand. It is a good framework to start with. It is not as powerful as other frameworks but it is a good framework to start with.
+
+3) How ll me about your experience as a producer of APIs vs consuming them. What’s important for good APIs?
+  - Response time, documentation, security/auth, versioning, error handling, caching, rate limiting, monitoring.
+  - I use tools like Sentry to monitor my APIs and I use Postman to test them.
+  - Is important to have a good documentation for the API, so the consumers can use it easily.
+  - Also is important to use the correct methods for each endpoint.
+  - In the backend i use Redis to cache the responses of the API, so the response time is faster.
+
+4) Tell me about data scales you’ve worked with. Have you had to handle performance issues?
+  - I have worked with data scales from hundreds to thousands of rows, with operations between, so i use tools like Redis to cache the responses of the API, so the response time is faster.
+
+5) How do you know what new tech and tools to pay attention to and how do you stay up to date and keep your skills sharp?
+  - I read a lot of articles about new technologies and tools, and i try to use them in my projects. One of the sites that i check is https://stackshare.io/ to see what technologies are trending. Also i follow people on twitter and channels on youtube that talk about new technologies and tools.
