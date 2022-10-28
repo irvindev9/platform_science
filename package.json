@@ -1,0 +1,19 @@
+{
+  "name": "platform_science",
+  "version": "1.0.0",
+  "description": "Excercise Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irvindev9/platform_science.git"
+  },
+  "author": "Irvin Lopez / irvindev9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irvindev9/platform_science/issues"
+  },
+  "homepage": "https://github.com/irvindev9/platform_science#readme"
+}
