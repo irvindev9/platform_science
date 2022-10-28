@@ -4,7 +4,8 @@
   "description": "Excercise Code",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "convert": "node ./src/helpers/convertOneFile.js"
   },
   "repository": {
     "type": "git",
