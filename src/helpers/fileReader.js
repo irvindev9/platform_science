@@ -22,6 +22,10 @@ class FileReader {
       }
     }
   }
+
+  deleteKey(key) {
+    delete this.values[key];
+  }
 }
 
 module.exports = FileReader;
